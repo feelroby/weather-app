@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="searchBar">
+            <input type="text" placeholder="search the place" id="city" >
+            <button onclick="loadWeather()"><img src="image/search.png" id="imageWeather"></button>
+        </div>
+        <div class="result">
+            <div class="weatherResult">
+                <t id="cityResult"></t>
+                <img src="" id="pictResult">
+                <t id="tempResult"></t>
+                <t id="weather"></t>
+            </div>
+            <div class="detail">
+                <div class="humidity">
+                    <t>Humidity : </t>
+                    <t id="humidityResult"></t>
+                </div>
+                <div class="windSpeed">
+                    <t>Wind speed :</t>
+                    <t id="windSpeedResult"></t>
+                </div>
+            </div>
+            <div class="avg">
+                <t id="avgTemp"></t>
+            </div>    
+        </div>  
+    </div>
+</body>
+</html>
